@@ -1,0 +1,5 @@
+services:
+  mastering_drupal_8.weather_underground:
+    class: Drupal\mastering_drupal_8\WeatherUnderground
+    arguments: ['@http_client']
+

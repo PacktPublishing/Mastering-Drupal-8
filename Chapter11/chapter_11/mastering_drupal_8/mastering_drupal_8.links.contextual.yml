@@ -1,0 +1,4 @@
+mastering_drupal_8:
+  title: 'Test'
+  route_name: 'mastering_drupal_8.test_page_block'
+  group: 'block'

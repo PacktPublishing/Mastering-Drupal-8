@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains mastering_drupal_8.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function mastering_drupal_8_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the mastering_drupal_8 module.
+    case 'help.page.mastering_drupal_8':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Mastering Drupal 8') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function mastering_drupal_8_theme() {
+  return [
+    'mastering_drupal_8' => [
+      'template' => 'mastering_drupal_8',
+      'render element' => 'children',
+    ],
+  ];
+}

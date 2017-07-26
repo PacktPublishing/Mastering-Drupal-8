@@ -1,0 +1,14 @@
+{
+  "name": "drupal/mastering_drupal_8",
+  "type": "drupal-module",
+  "description": "Mastering Drupal 8",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/mastering_drupal_8",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/mastering_drupal_8",
+    "source": "http://cgit.drupalcode.org/mastering_drupal_8"
+  },
+  "require": { }
+}

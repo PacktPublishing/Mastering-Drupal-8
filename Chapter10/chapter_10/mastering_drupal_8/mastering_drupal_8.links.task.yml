@@ -1,0 +1,11 @@
+mastering_drupal_8.test_page:
+  title: 'Test'
+  route_name: mastering_drupal_8.test_page
+  base_route: mastering_drupal_8.test_page
+  weight: 1
+  
+mastering_drupal_8.test_2:
+  title: 'Test 2'
+  route_name: mastering_drupal_8.test_page_message
+  base_route: mastering_drupal_8.test_page
+  weight: 2

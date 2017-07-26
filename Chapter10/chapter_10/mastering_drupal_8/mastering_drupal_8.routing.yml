@@ -1,0 +1,28 @@
+mastering_drupal_8.test_page:
+  path: 'mastering_drupal_8/test'
+  defaults:
+    _controller: '\Drupal\mastering_drupal_8\Controller\TestPageController::test'
+  requirements:
+    _permission: 'access content'
+
+mastering_drupal_8.test_page_message:
+  path: 'mastering_drupal_8/message/{message}'
+  defaults:
+    _controller: '\Drupal\mastering_drupal_8\Controller\TestPageController::testMessage'
+    message: 'foo'
+  requirements:
+    _access: 'TRUE'
+
+mastering_drupal_8.test_page_node:
+  path: 'mastering_drupal_8/node/{node}'
+  defaults:
+    _controller: '\Drupal\mastering_drupal_8\Controller\TestPageController::testNode'
+  requirements:
+    _access: 'TRUE'
+    
+mastering_drupal_8.test_page_block:
+  path: 'mastering_drupal_8/block/{block}'
+  defaults:
+    _controller: '\Drupal\mastering_drupal_8\Controller\TestPageController::testBlock'
+  requirements:
+    _access: 'TRUE'

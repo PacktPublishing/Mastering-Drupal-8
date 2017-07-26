@@ -1,0 +1,5 @@
+name: Mastering Drupal 8
+type: module
+description: Mastering Drupal 8
+core: 8.x
+package: Custom

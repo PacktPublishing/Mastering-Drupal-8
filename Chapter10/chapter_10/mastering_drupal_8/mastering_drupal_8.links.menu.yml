@@ -1,0 +1,6 @@
+mastering_drupal_8.test_page:
+  title: 'Test'
+  description: 'Test page'
+  route_name: mastering_drupal_8.test_page
+  weight: 100
+  menu_name: main
