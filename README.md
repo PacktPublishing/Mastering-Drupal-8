@@ -13,7 +13,7 @@ You will then explore RESTful services to develop headless applications and lear
 This book will give you all the weapons you need to handle and overcome any problems you might be faced with so you can ultimately become the Drupal "Ninja" in your organization!
 
 ## Instructions and Navigation
-All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
+All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter12.
 
 
 
